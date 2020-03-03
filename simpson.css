@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: goldenrod;
+}
+    
+.wrapper{
+   width: 80%;
+   margin:auto;  
+}
+
+header{
+    background-color: blue;
+    color:white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;         
+}
+
+header>p{
+    padding:0.5em;
+}
+
+.banniere{
+     
+    margin: auto;
+    width: 100%;
+    margin-bottom: -1em;*/
+    /*margin-bottom: -20em;*/
+    
+    
+}
+
+.contenu{
+    background-color: white;
+    display: flex; 
+    
+    padding: 1em;
+       
+}
+
+nav{
+    background-color: blue;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:18%;    
+}
+
+/*.acceuil{
+    border:solid blue;
+    background-color: blue;
+
+
+}
+.film{
+    border:solid blue;
+    background-color: blue;
+}
+.personnage{
+    border:solid blue;
+    background-color: blue;
+}
+.histoire{
+    border:solid blue;
+    background-color: blue;
+}
+.matt{
+    border:solid blue;
+    background-color: blue;
+}
+*/
+nav a{
+    color:white;
+    margin: auto;  
+}
+
+h1{
+    color: gold;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+article{
+    width: 62%;
+    padding: 0.5em;
+    text-align: justify;
+}
+article>p{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+aside{
+    background-color: blue;
+    text-align: center;
+    color:white; 
+    width: 20%;
+ }
+
+.bio{
+    width: 60%;
+    margin: 1em;
+    border:solid;
+}
+
+figcaption{
+    font-weight: bolder;
+    font-size: 1.5em;
+} 
+
+aside>p{
+    text-align: justify;
+    padding:1em;
+}
+
+footer{
+    text-align: center;
+    background: blue;
+    color:white;
+    padding:0.5em 0;
+        }
+
+      
